@@ -1,4 +1,4 @@
-# Syntactic Processing Assignment
+# Healthcare Data Assignment
 > 
 
 ## Table of Contents
@@ -11,28 +11,30 @@
 * [License](#license)
 
 ## General Information
+'BeHealthy' has a web platform that allows doctors to list their services and manage patient interactions and provides services 
+for patients such as booking interactions with doctors and ordering medicines online. Here, doctors can easily organise appointments, 
+track past medical records and provide e-prescriptions.
 
 #### Objective
 
 ## Approach
 
 Following is the step-by-step approach followed to solve the given problem statement:
-1. Data Understanding
-1. Building Simple Model (Model I)
-1. Building Model with Augment layer (Model II)
-1. Using Augmentor (for increase dataset)
-1. Building Model with Augmentor dataset (Model III)
+1. Data preprocessing
+1. Concept identification
+1. Defining features for CRF
+1. Getting the features
+1. Define input and target variables
+1. Building the model
+1. Evaluating the model
+1. Identifying diseases and treatements
 
 ## Conclusions
 
 ## Technologies Used
 - Python (ver 3.12.7)
-- NumPy (ver 1.26.4)
 - Pandas (ver 2.2.2)
-- MatplotLib (ver 3.9.2)
-- Tensorflow (ver 2.18.0)
-- Keras (ver 3.8.0)
-- Augmentor (ver 0.2.12)
+- Spacy (ver 3.8.4)
 
 ## Acknowledgements
 
